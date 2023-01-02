@@ -768,9 +768,9 @@ body {
   border: 1px solid var(--blue-color);
   outline: none;
 }
-.modal__form-label:hover .modal-icon,
-.modal__form-label:active .modal-icon,
-.modal__form-label:focus-within .modal-icon {
+.modal__form-label:hover .modal__icon,
+.modal__form-label:active .modal__icon,
+.modal__form-label:focus-within .modal__icon {
   fill: var(--blue-color);
 }
 .modal__icon {
@@ -786,7 +786,7 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
-.modal_policy-link {
+.modal__policy-link {
   color: var(--blue-color);
   text-decoration: underline;
 }
