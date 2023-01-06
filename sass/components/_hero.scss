@@ -16,30 +16,30 @@
       var(--dark-transparent-color)
     ),
     url("../images/header.jpg");
-}
-.hero__title {
-  font-weight: 900;
-  font-size: 44px;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--white-color);
-  line-height: 1.36;
-  letter-spacing: calc(0.06 * 44px);
-  margin: 0 auto;
-}
-.hero__button {
-  color: var(--white-color);
-  background-color: var(--blue-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  cursor: pointer;
-  padding: 10px 41px;
-  border: none;
-  border-radius: 4px;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding: 10px 41px;
+  &__title {
+    font-weight: 900;
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white-color);
+    line-height: 1.36;
+    letter-spacing: calc(0.06 * 44px);
+    margin: 0 auto;
+  }
+  &__button {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+    padding: 10px 41px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 41px;
+  }
 }
 
 .hero-subsection {
@@ -50,37 +50,37 @@
   gap: 30px;
   margin: 0 auto;
   list-style: none;
-}
-.hero-subsection__subtext {
-  color: var(--grey-color);
-  line-height: 1.71;
-  font-size: 14px;
-  letter-spacing: calc(0.03 * 14px);
-  margin-top: 10px;
-}
-.hero-subsection__subtext-title {
-  font-weight: 700;
-  color: var(--almost-black-color);
-  font-size: 14px;
-  letter-spacing: calc(0.03 * 14px);
-  margin: 0 auto;
-  text-transform: uppercase;
-  padding-top: 30px;
-}
-.hero-subsection__icon {
-  background-color: var(--almost-white-color);
-  border-radius: 4%;
-  display: block;
-}
-.hero-subsection__antenna {
-  padding: 25px 102px;
-}
-.hero-subsection__clock {
-  padding: 25px 102px;
-}
-.hero-subsection__diagram {
-  padding: 33px 100px;
-}
-.hero-subsection__astronaut {
-  padding: 25px 100px;
+  &__subtext {
+    color: var(--grey-color);
+    line-height: 1.71;
+    font-size: 14px;
+    letter-spacing: calc(0.03 * 14px);
+    margin-top: 10px;
+  }
+  &__subtext-title {
+    font-weight: 700;
+    color: var(--almost-black-color);
+    font-size: 14px;
+    letter-spacing: calc(0.03 * 14px);
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+  &__icon {
+    background-color: var(--almost-white-color);
+    border-radius: 4%;
+    display: block;
+  }
+  &__antenna {
+    padding: 25px 102px;
+  }
+  &__clock {
+    padding: 25px 102px;
+  }
+  &__diagram {
+    padding: 33px 100px;
+  }
+  &__astronaut {
+    padding: 25px 100px;
+  }
 }

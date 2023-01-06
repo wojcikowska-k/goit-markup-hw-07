@@ -6,68 +6,67 @@
   margin: 0 auto;
   margin-left: 93px;
   letter-spacing: calc(0.02 * 14px);
-}
-.navigation__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.navigation__link {
-  text-decoration: none;
-}
-.navigation .navigation__list {
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 auto;
-  padding: 0;
-  gap: 46px;
-}
-.navigation .navigation__link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: var(--almost-black-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.navigation .navigation__link:visited {
-  color: var(--almost-black-color);
-}
-.navigation .navigation__link:hover,
-.navigation .navigation__link:focus {
-  color: var(--blue-color);
-}
-.navigation .navigation__link::after {
-  content: "";
-  display: block;
-  height: 4px;
-  background-color: var(--blue-color);
-  border-radius: 2px;
-
-  position: absolute;
-  top: 78px;
-  display: none;
-}
-.navigation__agency::after {
-  width: 53px;
-}
-.navigation__portfolio::after {
-  width: 57px;
-}
-.navigation__contact::after {
-  width: 51px;
-}
-.navigation .navigation__link:hover::after,
-.navigation .navigation__link:focus::after {
-  display: block;
-}
-.navigation .navigation__list .navigation__agency-open {
-  color: var(--blue-color);
-}
-.navigation .navigation__list .navigation__agency-open::after {
-  display: block;
-}
-.navigation .navigation__list .navigation__portfolio-open {
-  color: var(--blue-color);
-}
-.navigation .navigation__list .navigation__portfolio-open::after {
-  display: block;
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__link {
+    text-decoration: none;
+  }
+  & &__list {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    gap: 46px;
+  }
+  & &__link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: var(--almost-black-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & &__link:visited {
+    color: var(--almost-black-color);
+  }
+  & &__link:hover,
+  & &__link:focus {
+    color: var(--blue-color);
+  }
+  & &__link::after {
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: var(--blue-color);
+    border-radius: 2px;
+    position: absolute;
+    top: 78px;
+    display: none;
+  }
+  &__agency::after {
+    width: 53px;
+  }
+  &__portfolio::after {
+    width: 57px;
+  }
+  &__contact::after {
+    width: 51px;
+  }
+  & &__link:hover::after,
+  & &__link:focus::after {
+    display: block;
+  }
+  & &__list &__agency-open {
+    color: var(--blue-color);
+  }
+  & &__list &__agency-open::after {
+    display: block;
+  }
+  & &__list &__portfolio-open {
+    color: var(--blue-color);
+  }
+  & &__list &__portfolio-open::after {
+    display: block;
+  }
 }
