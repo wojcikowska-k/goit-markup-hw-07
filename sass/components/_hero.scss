@@ -27,15 +27,11 @@
     margin: 0 auto;
   }
   &__button {
-    color: var(--white-color);
-    background-color: var(--blue-color);
+    @include button(var(--white-color), var(--blue-color));
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    cursor: pointer;
     padding: 10px 41px;
-    border: none;
-    border-radius: 4px;
     margin: 0 auto;
     margin-top: 30px;
     padding: 10px 41px;
