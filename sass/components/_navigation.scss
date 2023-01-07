@@ -37,7 +37,7 @@
     background-color: var(--blue-color);
     border-radius: 2px;
     position: absolute;
-    top: 0px;
+    top: calc(28px + 16px + 2px);
     left: 0px;
     display: none;
     width: 100%;
