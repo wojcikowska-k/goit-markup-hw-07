@@ -32,7 +32,6 @@
   }
   &__link::after {
     content: "";
-    display: block;
     height: 4px;
     background-color: var(--blue-color);
     border-radius: 2px;
@@ -46,16 +45,10 @@
   &__link:focus::after {
     display: block;
   }
-  &__list &__agency--open {
+  &__list &__link--open {
     color: var(--blue-color);
   }
-  &__list &__agency--open::after {
-    display: block;
-  }
-  &__list &__portfolio--open {
-    color: var(--blue-color);
-  }
-  &__list &__portfolio--open::after {
+  &__list &__link--open::after {
     display: block;
   }
 }
